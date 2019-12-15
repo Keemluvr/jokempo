@@ -1,0 +1,27 @@
+.main-stage {
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+.main-stage > .simple-title {
+    margin-bottom: var(--gap-smaller);
+    font-size: 22px;
+}
+
+.main-stage > .simple-subtitle {
+    margin-bottom: var(--gap-big);
+}
+
+.main-stage > .primary-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 28px;
+    margin-bottom: var(--gap-smaller);
+}
